@@ -6,7 +6,8 @@
 #
 #
 
-o3de_gem_setup()
-
-add_subdirectory(Code)
-
+set(FILES
+    ../Common/Unimplemented/SaveData_SystemComponent_Unimplemented.cpp
+    SaveData_Traits_Platform.h
+    SaveData_Traits_Emscripten.h
+)

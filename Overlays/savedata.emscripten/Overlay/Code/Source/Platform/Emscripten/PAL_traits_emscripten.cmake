@@ -6,7 +6,4 @@
 #
 #
 
-o3de_gem_setup()
-
-add_subdirectory(Code)
-
+set(PAL_TRAIT_ENABLE_SAVEDATA_UNIT_TEST FALSE)

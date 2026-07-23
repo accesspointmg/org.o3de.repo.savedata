@@ -6,7 +6,6 @@
 #
 #
 
-o3de_gem_setup()
-
-add_subdirectory(Code)
-
+set(FILES
+    ../Common/Unimplemented/SaveDataTest_Unimplemented.cpp
+)
